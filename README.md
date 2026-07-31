@@ -93,17 +93,18 @@ New Access Token
 # 📌 API Endpoints
 
 ## Authentication
+# Live URLs
 
 | Method | Endpoint | Description |
 |---------|----------|-------------|
-| POST | `/api/Auth/register` | Register a new user |
-| POST | `/api/Auth/login` | Login user |
-| POST | `/api/Auth/refresh` | Generate new access token |
-| POST | `/api/Auth/logout` | Logout current device |
-| POST | `/api/Auth/logout-all` | Logout from all devices |
-| GET | `/api/Auth/me` | Get current authenticated user |
-| PUT | `/api/Auth/change-password` | Change user password |
-| DELETE | `/api/Auth/delete-account` | Permanently delete account |
+| POST | `https://authenticationapi-production-4ecb.up.railway.app/api/Auth/register` | Register a new user |
+| POST | `https://authenticationapi-production-4ecb.up.railway.app/api/Auth/login` | Login user |
+| POST | `https://authenticationapi-production-4ecb.up.railway.app/api/Auth/refresh` | Generate new access token |
+| POST | `https://authenticationapi-production-4ecb.up.railway.app/api/Auth/logout` | Logout current device |
+| POST | `https://authenticationapi-production-4ecb.up.railway.app/api/Auth/logout-all` | Logout from all devices |
+| GET | `https://authenticationapi-production-4ecb.up.railway.app/api/Auth/me` | Get current authenticated user |
+| PUT | `https://authenticationapi-production-4ecb.up.railway.app/api/Auth/change-password` | Change user password |
+| DELETE | `https://authenticationapi-production-4ecb.up.railway.app/api/Auth/delete-account` | Permanently delete account |
 
 ---
 
